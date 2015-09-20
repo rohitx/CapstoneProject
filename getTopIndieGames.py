@@ -1,3 +1,14 @@
+"""
+This program gets the names of top 100 Indie games
+from the Indiedb website. The function takes in a URL
+and returns a text file with the name of the games
+
+Created: Sept. 19th 2015
+Creator: Rohit Deshpande
+"""
+
+
+
 from bs4 import BeautifulSoup
 import urllib2
 
