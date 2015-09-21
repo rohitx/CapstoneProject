@@ -1,4 +1,4 @@
-# CapstoneProject
+# Indie Game Recommender
 
 This is my Galvanize CapStone Project repository. My project is titled **"Indie Game Recommender"**.
 
