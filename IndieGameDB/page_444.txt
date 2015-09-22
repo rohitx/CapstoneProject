@@ -1,0 +1,12 @@
+/games/simdeveloper,simdeveloper
+/games/the-haunted-house,the-haunted-house
+/games/noob-pwn-rpg,noob-pwn-rpg
+/games/foot-hold,foot-hold
+/games/resistance,resistance
+/games/piu-space-wars,piu-space-wars
+/games/trepidation,trepidation
+/games/escape-from-hell,escape-from-hell
+/games/nadc,nadc
+/games/bank-robber,bank-robber
+/games/ltktbm,ltktbm
+/games/forest-creator,forest-creator
