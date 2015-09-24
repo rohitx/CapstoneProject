@@ -6,16 +6,18 @@ with open("PopGames.txt", "r") as g:
     content = g.readlines()
 #g.close()
 
-goFrom = 600
-goTo = goFrom + 50
+goFrom = 1328
+goTo = goFrom + 22
 a = content[goFrom:goTo]
-outfile = "Info"+str(goFrom)+"-"+str(goTo)+".txt"
+outfile = "metacritic/Info"+str(goFrom)+"-"+str(goTo)+".txt"
 print "Doing...."
 print a
 
 # Create URLs to query MetaCritic.com
+count = goFrom
 with open(outfile, "w") as z:
     for game in a:
+        print count
         game = game.replace("&", "")
         game = game.replace("(", "")
         game = game.replace(")", "")
@@ -31,15 +33,16 @@ with open(outfile, "w") as z:
         req = urllib2.Request(site,headers=hdr)
         page = urllib2.urlopen(req)
         soup = BeautifulSoup(page)
+        count +=1
 
 
         # Get the Summary
-        spans = soup.find_all('span', {"class":"blurb blurb_expanded"})
-        summary = []
-        for span in spans:
-            summary.append(span.string)
-        if len(summary) == 0:
-            summary = soup.find(itemprop="description").get_text()
+        #spans = soup.find_all('span', {"class":"blurb blurb_expanded"})
+        #summary = []
+        #for span in spans:
+        #    summary.append(span.string)
+        #if len(summary) == 0:
+        #    summary = soup.find(itemprop="description").get_text()
 
 
         # Get the Score
@@ -61,12 +64,12 @@ with open(outfile, "w") as z:
             genre = "NaN"
 
         # Get Review Count
-        #review_count = soup.find(itemprop="reviewCount").text
-        #review_count = review_count.strip(" ")
-        #review_count = review_count.replace(" ", "")
+        review_count = soup.find(itemprop="reviewCount").text
+        review_count = review_count.strip(" ")
+        review_count = review_count.replace(" ", "")
 
         # Write everything to file
-        z.write("{sum:s} | {gs:s} | {ge:s} | {game:s} |\n".format(sum=summary, gs = gameScore, ge=genre, game=game))
+        z.write("{gs:s} | {ge:s} | {game:s} |\n".format(gs = gameScore, ge=genre, game=game))
 
         wait_time = random.randint(3,8)
         print "Waiting for...", wait_time

@@ -24,12 +24,14 @@ def getIndieGameInfo(gameurl):
             engine = engine.encode('utf-8')
         if 'Release Date' in a:
             release_date = a[2]
+            release_date = release_date.replace(",", "")
         if 'Genre' in a:
             genre = a[2]
         if 'Theme' in a:
             theme =  a[2]
         if 'Players' in a:
             players = a[2]
+            players = players.replace(",", "")
 
 
     divScore = soup.findAll("div", { "class" : "score" })
@@ -62,7 +64,7 @@ def getIndieGameInfo(gameurl):
 pages = glob.glob("/Users/rohit/git/CapstoneProject/IndieGameDB/*.txt")
 if len(pages) == 0:
     print "No files found!"
-pages = pages[400:444]
+pages = pages[300:444]
 print pages
 for page in pages:
     print "Doing page number...", page
@@ -75,7 +77,7 @@ for page in pages:
             print "Doing game...", gameurl
             platform_check, engine, release_date, genre, theme, players, score_final, rating = getIndieGameInfo(gameurl)
             f.write("{p:s},{e:s},{r:s},{g:s},{t:s},{pl:s},\
-                     {sf:s},{ra:s}, {grl:s},\n".format(p=platform_check, e=engine, r=release_date,\
+                     {sf:s},{ra:s}, {grl:s}\n".format(p=platform_check, e=engine, r=release_date,\
                                             g=genre, t=theme, pl=players, sf=score_final, ra=rating, grl=gameurl))
             wait_time = random.randint(1,2)
             print "Waiting for...", wait_time
