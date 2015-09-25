@@ -1,25 +1,31 @@
 from bs4 import BeautifulSoup
 import urllib2, sys, time, random
-
+import pandas as pd
+import numpy as np
 
 with open("PopGames.txt", "r") as g:
     content = g.readlines()
 
-goFrom = 600
-goTo = 800
+goFrom = 1420
+goTo = goFrom + 10
 content = content[goFrom:goTo]
 print content
 
-outfile = "metacritic/summaries"+str(goFrom)+"-"+str(goTo)+".txt"
+index = np.arange(goTo - goFrom)
+columns = ["Game", "Summary"]
+df = pd.DataFrame(columns = columns, index=index)
+
+outfile = "metacritic/summaries"+str(goFrom)+"-"+str(goTo)+".json"
 with open(outfile, "w") as z:
-    for game in content:
-        org_game = game
+    for i, game in enumerate(content):
+        org_game = game.strip()
         print game
         if "&" in game:
             #game = game.replace(" ", "").replace("&", "-").lower()
             game = game.replace(" ","-").replace("&","").lower()
             game = game.replace(":", "")
             game = game.replace("'", "")
+            game = game.replace("(", "").replace(")","").replace(" ", "-").lower()
         elif "(" in game:
             game = game.replace("(", "").replace(")","").replace(" ", "-").lower()
         else:
@@ -39,12 +45,14 @@ with open(outfile, "w") as z:
             descp =  (spans.text).encode("utf-8")
         else:
             descp =  "None"
-        wait_time = random.randint(3,8)
+        descp = descp.strip()
+        wait_time = random.randint(3,5)
         print "Waiting for...", wait_time
         time.sleep(wait_time)
         print ""
         print ""
-        z.write("{ga:s} | {gr:s} | {des:s}\n".format(ga=game, gr=org_game, des=descp))
-        print goFrom + content.index(org_game)
-
+        df.ix[i,"Game"] = game
+        df.ix[i,"Summary"] = descp
+        #z.write("{ga:s} | {des:s}\n".format(ga=game, des=descp))
     z.close()
+df.to_json(outfile)

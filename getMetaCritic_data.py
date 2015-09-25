@@ -6,8 +6,8 @@ with open("PopGames.txt", "r") as g:
     content = g.readlines()
 #g.close()
 
-goFrom = 1328
-goTo = goFrom + 22
+goFrom = 2467
+goTo = goFrom + 533
 a = content[goFrom:goTo]
 outfile = "metacritic/Info"+str(goFrom)+"-"+str(goTo)+".txt"
 print "Doing...."
@@ -18,14 +18,23 @@ count = goFrom
 with open(outfile, "w") as z:
     for game in a:
         print count
-        game = game.replace("&", "")
-        game = game.replace("(", "")
-        game = game.replace(")", "")
-        game = game.replace(":", "")
-        game = game.replace(",", "")
-        game = game.replace("'", "")
-        game = game.strip().replace(".", "")
-        game = game.lower().replace(" ", "-")
+        if "&" in game:
+            #game = game.replace(" ", "").replace("&", "-").lower()
+            game = game.replace(" ","-").replace("&","").lower()
+            game = game.replace(":", "")
+            game = game.replace("'", "")
+            game = game.replace("(", "").replace(")","").replace(" ", "-").lower()
+            game = game.replace(",", "").replace(".", "")
+        elif "(" in game:
+            game = game.replace("(", "").replace(")","").replace(" ", "-").lower()
+            game = game.replace("'", "")
+        else:
+            game = game.replace(":", "")
+            game = game.replace(",", "")
+            game = game.replace("'", "")
+            game = game.strip().replace(".", "")
+            game = game.lower().replace(" ", "-")
+
         site = "http://www.metacritic.com/game/pc/"+game
         print site
         #site = "http://www.metacritic.com/game/pc/portal"
@@ -71,7 +80,7 @@ with open(outfile, "w") as z:
         # Write everything to file
         z.write("{gs:s} | {ge:s} | {game:s} |\n".format(gs = gameScore, ge=genre, game=game))
 
-        wait_time = random.randint(3,8)
+        wait_time = random.randint(2,5)
         print "Waiting for...", wait_time
         time.sleep(wait_time)
 z.close()
