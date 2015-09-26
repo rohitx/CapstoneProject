@@ -6,8 +6,8 @@ with open("PopGames.txt", "r") as g:
     content = g.readlines()
 #g.close()
 
-goFrom = 2467
-goTo = goFrom + 533
+goFrom = 2706
+goTo = goFrom + 294
 a = content[goFrom:goTo]
 outfile = "metacritic/Info"+str(goFrom)+"-"+str(goTo)+".txt"
 print "Doing...."
@@ -34,6 +34,7 @@ with open(outfile, "w") as z:
             game = game.replace("'", "")
             game = game.strip().replace(".", "")
             game = game.lower().replace(" ", "-")
+            game = game.replace("/", "")
 
         site = "http://www.metacritic.com/game/pc/"+game
         print site
