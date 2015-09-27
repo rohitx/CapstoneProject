@@ -1,0 +1,101 @@
+2.3 | Arcade | 007-legends |
+6.2 | Modern | 007-nightfire |
+9.0 | 2D | 10-second-ninja |
+7.3 | General | 10000000 |
+7.4 | 2D | 140 |
+5.6 | Adventure Games | 15-days |
+7.5 | Historic | 1503-ad---the-new-world |
+8.3 | Historic | 1701-ad |
+No Score | Historic | 1849 |
+6.2 | General | 1954-alcatraz |
+8.4 | Racing | 1nsane |
+8.1 | Sim | 2002-fifa-world-cup |
+5.1 | Modern | 25-to-life |
+4.0 | General | 4pm |
+8.4 | Rally / Offroad | 4x4-evo-2 |
+6.0 | Rally / Offroad | 4x4-evolution |
+7.3 | General | 7-grand-steps |
+5.1 | First-Person Shooters | 7554 |
+7.3 | Fantasy | 80-days |
+7.0 | 2D | 8bitboy |
+7.0 | General | 911-fire-rescue |
+7.4 | General | 99-levels-to-hell |
+7.4 | General | a-bird-story |
+6.3 | Scrolling | a-city-sleeps |
+6.6 | Other Strategy Games | a-game-of-dwarves |
+4.1 | Real-Time Strategy | a-game-of-thrones-genesis |
+5.9 | General | a-golden-wake |
+6.5 | Adventure Games | a-new-beginning---final-cut |
+7.4 | Modern | a-quiet-weekend-in-capri |
+7.4 | 3D | a-story-about-my-uncle |
+5.2 | Adventure Games | a-stroke-of-fate-operation-valkyrie |
+8.3 | Massively Multiplayer | a-tale-in-the-desert |
+6.8 | Fantasy | a-valley-without-wind |
+7.2 | 2D | a-valley-without-wind-2 |
+8.5 | Point-and-Click | a-vampyre-story |
+6.5 | Puzzle | a-virus-named-tom |
+5.4 | Platformers | a-walk-in-the-dark |
+6.3 | Platformers | ares-extinction-agenda |
+7.1 | Historic | ageods-american-civil-war-1861-1865---the-blue-and-the-gray |
+No Score | Modern | agon-the-mysterious-codex |
+8.5 | Sci-Fi | ai-war-fleet-command |
+5.7 | Modern | apb-all-points-bulletin
+ |
+5.8 | Modern | apb-reloaded |
+4.2 | Real-Time Strategy | apox |
+7.2 | 3D | aaaaaaaaaaaaaaaaaaaaaaaaa!!!---a-reckless-disregard-for-gravity |
+7.8 | Adventure Games | aarklash-legacy |
+7.3 | Linear | abyss-odyssey |
+5.9 | Action | ace-combat-assault-horizon-enhanced-edition |
+5.1 | General | ace-of-spades |
+8.0 | Real-Time Strategy | achron |
+8.3 | Other Strategy Games | achtung-panzer-kharkov-1943 |
+8.4 | Military | act-of-war-direct-action |
+7.9 | Military | act-of-war-high-treason |
+7.6 | Interactive Movie | actual-sunlight |
+6.4 | Action | adams-venture-the-search-for-the-lost-garden |
+8.9 | Action Adventure | advent-rising |
+4.1 | General | adventure-park |
+7.0 | Pinball | adventure-pinball-forgotten-island |
+No Score | Other Shooters | aerial-strike-the-yager-missions |
+5.9 | Survival | afterfall-insanity |
+6.9 | Tactics | agarest-generations-of-war |
+7.7 | Modern | agatha-christie-and-then-there-were-none |
+7.2 | Modern | agatha-christie-evil-under-the-sun |
+7.8 | Modern | agatha-christie-murder-on-the-orient-express |
+7.3 | Fantasy | age-of-conan-hyborian-adventures |
+8.4 | Fantasy | age-of-conan-rise-of-the-godslayer |
+8.7 | Command | age-of-empires |
+7.5 | Command | age-of-empires-ii-hd-edition |
+9.0 | Command | age-of-empires-ii-the-age-of-kings |
+9.0 | Command | age-of-empires-ii-the-conquerors-expansion |
+7.6 | Historic | age-of-empires-iii |
+8.4 | Historic | age-of-empires-iii-the-asian-dynasties |
+8.0 | Historic | age-of-empires-iii-the-warchiefs |
+5.6 | Historic | age-of-empires-online |
+8.9 | Fantasy | age-of-mythology |
+6.3 | Fantasy | age-of-mythology-extended-edition |
+8.7 | Fantasy | age-of-mythology-the-titans |
+8.0 | Action RPG | age-of-pirates-2-city-of-abandoned-ships |
+6.6 | PC-style RPG | age-of-pirates-caribbean-tales |
+No Score | Other Strategy Games | age-of-rifles |
+No Score | General | age-of-sail-ii |
+No Score | Historic | age-of-sail-ii-privateers-bounty |
+8.5 | Fantasy | age-of-wonders-ii-the-wizards-throne |
+7.8 | Fantasy | age-of-wonders-iii |
+8.6 | General | age-of-wonders-iii---golden-realms |
+8.5 | Fantasy | age-of-wonders-shadow-magic |
+5.5 | Fantasy | age-of-wushu |
+6.6 | Fantasy | aion |
+No Score | Other Strategy Games | air-command-30 |
+6.7 | WWII | air-conflicts-secret-wars |
+2.6 | Action | air-conflicts-vietnam |
+7.1 | Historic | air-raid-this-is-not-a-drill! |
+6.8 | General | airbuccaneers |
+6.9 | Other Strategy Games | airborne-assault-conquest-of-the-aegean |
+6.1 | Other Strategy Games | airborne-assault-highway-to-the-reich |
+7.4 | Other Strategy Games | airborne-assault-red-devils-over-arnhem |
+8.2 | Modern Jet | airfix-dogfighter |
+5.5 | Tycoon | airline-tycoon-2 |
+4.9 | Tycoon | airport-tycoon-2 |
+4.6 | Tycoon | airport-tycoon-3 |

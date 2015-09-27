@@ -1,0 +1,233 @@
+7.8 | Racing | pro-cycling-managertour-de-france-2007 |
+7.4 | Sim | pro-evolution-soccer-2009 |
+6.9 | Sim | pro-evolution-soccer-2010 |
+6.3 | Soccer | pro-evolution-soccer-2012 |
+6.7 | Sim | pro-evolution-soccer-2013 |
+4.5 | Sim | pro-evolution-soccer-2014 |
+5.8 | Sim | pro-evolution-soccer-2015 |
+7.3 | Racing | pro-race-driver |
+No Score | Sim | prostroke-golf---world-tour-2007 |
+6.7 | Other | professional-bull-rider-2 |
+5.4 | Sci-Fi | project-earth |
+7.6 | Action Adventure | project-eden |
+8.2 | Tactical Shooters | project-igi-im-going-in |
+8.0 | Fantasy | project-nomads |
+6.8 | Arcade | project-snowblind |
+5.6 | Fantasy | proteus |
+7.9 | Open-World | prototype |
+6.3 | Open-World | prototype-2 |
+8.9 | 3D | psychonauts |
+5.4 | Fantasy | psychotoxic |
+6.9 | Arcade | pure |
+6.9 | Billiards | pure-pool |
+No Score | Baseball | puresim-baseball |
+6.8 | Fantasy | purge |
+6.9 | Puzzle | puzzle-agent |
+7.0 | Puzzle | puzzle-agent-2 |
+7.6 | Puzzle | puzzle-dimension |
+8.5 | Puzzle | puzzle-pirates |
+6.8 | Puzzle | puzzle-quest-2 |
+8.2 | Puzzle | puzzle-quest-challenge-of-the-warlords |
+6.8 | Puzzle | puzzle-quest-galactrix |
+8.3 | Puzzle | puzzlegeddon |
+7.6 | Puzzle | qube |
+7.6 | Sci-Fi | qbeh-1-the-atlas-cube |
+8.8 | Arcade | quake |
+7.5 | Sci-Fi | quake-4 |
+8.1 | Arcade | quake-iii-team-arena |
+7.3 | Puzzle | quantum-conundrum |
+6.5 | Arcade | quantum-of-solace |
+7.3 | Puzzle | quantz |
+7.7 | General | quest-for-infamy |
+7.6 | Historic | qvadriga |
+1.6 | Sci-Fi | ripd-the-game |
+8.0 | Historic | ruse |
+9.1 | Automobile | race-07-official-wtcc-game |
+8.2 | Automobile | race-on |
+7.5 | Automobile | race-the-wtcc-game |
+6.2 | Arcade | rc-cars |
+5.7 | Massively Multiplayer | rf-online |
+5.6 | Other Strategy Games | risk-factions |
+7.4 | Puzzle | rush |
+8.7 | Fantasy | ryl-path-of-the-emperor |
+8.5 | Racing | race-injection |
+7.6 | Futuristic | race-the-sun |
+4.9 | 2D | rag-doll-kung-fu |
+5.1 | Modern | rage |
+No Score | Other Strategy Games | raging-tiger-the-second-korean-war |
+8.3 | Fantasy | ragnarok-online |
+6.6 | Fantasy | raiderz |
+6.9 | Train | rail-simulator |
+7.1 | Historic | railroad-pioneer |
+7.6 | Tycoon | railroad-tycoon-3 |
+8.4 | Tycoon | railroad-tycoon-ii |
+7.5 | General | rails-across-america |
+6.4 | Train | railworks-3-train-simulator-2012 |
+7.3 | General | rain-blood-chronicles-mirage |
+6.4 | Automobile | rallisport-challenge |
+8.5 | Rally / Offroad | rally-trophy |
+1.9 | General | rambo-the-video-game |
+6.5 | General | randals-monday |
+5.6 | Modern | ravaged |
+3.1 | First-Person Shooters | raven-squad-operation-hidden-dagger |
+8.3 | 3D | rayman-3-hoodlum-havoc |
+6.9 | On-foot | rayman-arena |
+8.4 | 2D | rayman-legends |
+8.4 | 2D | rayman-origins |
+7.6 | 3D | rayman-raving-rabbids |
+6.2 | Other Shooters | razor-2-hidden-skies |
+8.2 | Adventure Games | real-myst |
+6.0 | Billiards | real-pool-2 |
+5.7 | General | real-war |
+No Score | Military | real-war-rogue-states |
+6.9 | Top-Down | realm-of-the-mad-god |
+4.6 | Fantasy | realms-of-ancient-war |
+2.4 | Western-Style | realms-of-arkania-blade-of-destiny-revised |
+No Score | Modern | rebels-prison-escape |
+8.6 | Virtual Life Games | recettear-an-item-shops-tale |
+8.2 | Sci-Fi | red-faction |
+5.5 | Sci-Fi | red-faction-ii |
+6.7 | Other Shooters | red-faction-armageddon |
+7.5 | Other Shooters | red-faction-guerrilla |
+7.3 | Historic | red-orchestra-2-heroes-of-stalingrad |
+8.6 | Historic | red-orchestra-ostfront-41-45 |
+No Score | Modern Jet | redline-xtreme-air-racing-2 |
+5.5 | General | redshirt |
+No Score | Scrolling | redux-dark-matters |
+6.0 | Real-Time Strategy | reign-conflict-of-nations |
+2.2 | Modern | rekoil |
+7.3 | Action Adventure | remember-me |
+No Score | Other Strategy Games | remote-assault |
+7.3 | General | renegade-ops |
+8.3 | Modern | republic-the-revolution |
+7.8 | Modern | reservoir-dogs |
+8.5 | Horror | resident-evil-3-nemesis |
+7.3 | Survival | resident-evil-4 |
+7.7 | Survival | resident-evil-4-ultimate-hd-edition |
+7.1 | Survival | resident-evil-5 |
+5.8 | Survival | resident-evil-6 |
+8.2 | Survival | resident-evil-hd-remaster |
+3.7 | Arcade | resident-evil-operation-raccoon-city |
+7.0 | Horror | resident-evil-revelations |
+8.0 | Point-and-Click | resonance |
+7.4 | Tycoon | restaurant-empire-ii |
+6.7 | Role-Playing | restricted-area |
+7.9 | Modern | retro-city-rampage |
+6.9 | General | retrovirus |
+8.7 | Historic | return-to-castle-wolfenstein |
+9.1 | Historic | return-to-castle-wolfenstein-enemy-territory |
+8.4 | Modern | return-to-mysterious-island |
+7.3 | Other Strategy Games | reus |
+7.6 | Fantasy | revenge-of-the-titans |
+3.2 | Arcade | revolution |
+No Score | Fantasy | rhem |
+6.7 | Fantasy | rhem-2 |
+No Score | Adventure Games | rhem-3-the-secret-library |
+6.7 | Modern | rhiannon-curse-of-the-four-branches |
+5.7 | Music | rhythm-zone |
+6.8 | General | richard-alice
+ |
+6.9 | Adventure Games | riddle-of-the-sphinx-2-the-omega-stone |
+No Score | Adventure Games | riddle-of-the-sphinx-an-egyptian-adventure |
+1.3 | Modern | ride-to-hell-retribution |
+6.0 | Arcade | ridge-racer-unbounded |
+7.3 | Fantasy | rift |
+7.8 | Fantasy | rift-storm-legion |
+5.4 | Racing | rignroll |
+5.3 | Other Strategy Games | rigonauts |
+4.8 | Adventure Games | ring-ii-twilight-of-gods |
+7.7 | Action | ring-runner-flight-of-the-sages |
+8.6 | Real-Time Strategy | rise-fall-civilizations-at-war
+ |
+7.5 | WWI | rise-of-flight-the-first-great-air-war |
+5.6 | MOBA | rise-of-immortals-battle-for-graxia |
+8.9 | Historic | rise-of-nations |
+8.5 | Fantasy | rise-of-nations-rise-of-legends |
+8.8 | Historic | rise-of-nations-thrones-patriots
+ |
+7.0 | Turn-Based Strategy | rise-of-prussia |
+6.8 | General | rise-of-venice |
+7.3 | Action RPG | rise-of-the-argonauts |
+6.7 | Modern | rise-of-the-triad |
+8.1 | General | risen |
+5.6 | General | risen-2-dark-waters |
+5.7 | General | risen-3-titan-lords |
+8.5 | Arcade | rising-storm |
+8.0 | General | risk-of-rain |
+6.4 | General | road-not-taken |
+No Score | Adventure Games | road-to-india-between-hell-and-nirvana |
+6.5 | Historic | robin-hood-defender-of-the-crown |
+8.2 | Fantasy | robin-hood-the-legend-of-sherwood |
+8.3 | Other Shooters | roboblitz |
+No Score | Breeding/Constructing | roboforge |
+7.7 | Breeding/Constructing | robot-arena |
+8.1 | 2D | rochard |
+8.0 | Tycoon | rock-manager |
+7.8 | General | rock-of-ages |
+7.7 | 2D | rocket-knight |
+7.2 | General | rocketbirds-hardboiled-chicken |
+No Score | 3D | rockos-quest |
+8.0 | Music | rocksmith |
+8.0 | Music | rocksmith-2014-edition |
+7.9 | 2D | rogue-legacy |
+8.2 | Other Shooters | rogue-trooper |
+3.3 | Modern | rogue-warrior |
+8.5 | Business / Tycoon | rollercoaster-tycoon-2 |
+2.0 | Business / Tycoon | rollercoaster-tycoon-2-wacky-worlds |
+4.8 | Business / Tycoon | rollercoaster-tycoon-3 |
+2.9 | Business / Tycoon | rollercoaster-tycoon-3-soaked! |
+2.8 | Business / Tycoon | rollercoaster-tycoon-3-wild! |
+8.9 | Business / Tycoon | rollercoaster-tycoon-loopy-landscapes |
+7.7 | Pinball | rollers-of-the-realm |
+8.3 | Historic | romance-of-the-three-kingdoms-xi |
+9.1 | Historic | rome-total-war |
+7.6 | Historic | rome-total-war-alexander |
+8.4 | Real-Time Strategy | rome-total-war-barbarian-invasion |
+7.2 | Puzzle | roogoo |
+7.5 | Automobile | roundabout |
+No Score | Combat Sims | rowans-battle-of-britain |
+5.5 | Rugby | rugby-2004 |
+4.2 | General | rulers-of-nations-geopolitical-simulator-2 |
+No Score | General | rules-of-the-game |
+8.0 | Adventure Games | runaway-a-road-adventure |
+8.4 | Adventure Games | runaway-a-twist-of-fate |
+8.1 | Modern | runaway-the-dream-of-the-turtle |
+7.9 | Fantasy | rune |
+9.0 | General | rune-halls-of-valhalla |
+No Score | Role-Playing | runesword-ii |
+6.8 | General | runers |
+5.7 | Fantasy | runes-of-magic |
+6.8 | Massively Multiplayer | runes-of-magic-chapter-ii-the-elven-prophecy |
+6.8 | General | runespell-overture |
+5.1 | 2D | rush-bros |
+7.7 | Historic | rush-for-berlin |
+6.9 | Massively Multiplayer | rusty-hearts |
+6.3 | Fantasy | ryse-son-of-rome |
+8.7 | Arcade | stalker-call-of-pripyat |
+7.7 | Sci-Fi | stalker-clear-sky |
+8.4 | Sci-Fi | stalker-shadow-of-chernobyl |
+8.7 | Other Strategy Games | swine |
+8.3 | MOBA | smite |
+7.1 | Action | sol-exodus |
+8.4 | Tactical Shooters | swat-3-elite-edition |
+8.6 | Arcade | swat-4 |
+8.3 | Arcade | swat-4-the-stetchkov-syndicate |
+7.7 | Action RPG | sacred |
+6.8 | Action RPG | sacred-2-fallen-angel |
+1.4 | Action RPG | sacred-3 |
+5.4 | Beat-'Em-Up | sacred-citadel |
+7.9 | Action RPG | sacred-underworld |
+8.9 | Fantasy | sacrifice |
+7.0 | Puzzle | safecracker-the-ultimate-puzzle-adventure |
+8.0 | Massively Multiplayer | saga |
+6.7 | Open-World | saints-row-2 |
+7.4 | Open-World | saints-row-iv |
+6.2 | Open-World | saints-row-gat-out-of-hell |
+8.1 | Open-World | saints-row-the-third |
+7.6 | General | salammbo-battle-of-carthage |
+No Score | Olympic Sports | salt-lake-2002 |
+No Score | Action Adventure | salvo! |
+8.7 | Third-Person | sam-max-episode-101-culture-shock
+ |
+7.9 | Third-Person | sam-max-episode-102-situation-comedy
+ |

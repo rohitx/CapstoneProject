@@ -1,0 +1,206 @@
+7.0 | Arcade | battlefield-3-armored-kill |
+7.1 | Arcade | battlefield-3-back-to-karkand |
+6.9 | Arcade | battlefield-3-close-quarters |
+7.3 | Arcade | battlefield-3-end-game |
+5.9 | Arcade | battlefield-4 |
+5.4 | Arcade | battlefield-4-naval-strike |
+5.7 | Arcade | battlefield-4-second-assault |
+5.8 | General | battlefield-heroes |
+7.5 | Historic | battlefield-vietnam |
+8.3 | Modern | battlefield-bad-company-2 |
+8.1 | Modern | battlefield-bad-company-2-vietnam |
+1.8 | First-Person Shooters | battlefield-play4free |
+8.0 | Historic | battleground-europe-world-war-ii-online |
+No Score | Historic | battleplan-american-civil-war |
+No Score | General | battleship-surface-thunder |
+No Score | Other Shooters | battlestar-galactica |
+7.3 | Historic | battlestations-midway |
+8.4 | Historic | battlestations-pacific |
+7.2 | Rail | beach-head-2002 |
+7.0 | Other Shooters | beachhead-2000 |
+No Score | Arcade | beam-breakers |
+7.2 | Static | beat-hazard |
+8.0 | General | beatblasters-iii |
+7.5 | Music | beatbuddy-tale-of-the-guardians |
+2.3 | Tycoon | beauty-factory |
+6.0 | General | bee-movie-game |
+4.0 | Olympic Sports | beijing-2008---the-official-video-game-of-the-olympic-games |
+8.0 | Puzzle | bejeweled-3 |
+7.3 | Puzzle | bejeweled-twist |
+4.3 | Modern | belief-betrayal
+ |
+5.2 | Fantasy | beowulf-the-game |
+8.2 | Fantasy | besieger |
+5.7 | Arcade | bet-on-soldier-blood-sport |
+7.3 | Adventure Games | betrayer |
+7.0 | General | beware-planet-earth! |
+7.9 | General | beyond-atlantis-ii |
+7.7 | Action RPG | beyond-divinity |
+8.7 | Fantasy | beyond-good-evil
+ |
+6.6 | Tactical Shooters | beyond-the-law-the-third-wave |
+4.5 | General | bientot-lete |
+No Score | Other Strategy Games | big-biz-tycoon |
+3.4 | Truck | big-mutha-truckers |
+2.9 | Mission-based | big-mutha-truckers-2 |
+5.0 | Breeding/Constructing | big-oil-build-an-oil-empire |
+3.8 | Truck | big-rigs-over-the-road-racing |
+7.7 | Arcade | big-scale-racing |
+7.5 | Action Adventure | binary-domain |
+8.4 | Sci-Fi | bioshock |
+8.0 | Sci-Fi | bioshock-2 |
+8.5 | Arcade | bioshock-infinite |
+7.7 | Arcade | bioshock-infinite-burial-at-sea---episode-one |
+8.5 | Arcade | bioshock-infinite-burial-at-sea---episode-two |
+6.1 | Arcade | bioshock-infinite-clash-in-the-clouds |
+6.9 | Adventure Games | bionic-commando |
+6.9 | 2D | bionic-commando-rearmed |
+7.6 | Modern | bionic-dues |
+6.1 | 3D | bionicle |
+8.7 | Action Adventure | bionicle-heroes |
+5.4 | Historic | birth-of-america |
+6.4 | Music | bittrip-fate |
+8.1 | Music | bittrip-presentsrunner2-future-legend-of-rhythm-alien |
+7.7 | Fantasy | black-white
+ |
+7.3 | Fantasy | black-white-2
+ |
+8.3 | Fantasy | black-white-2---battle-of-the-gods
+ |
+7.6 | Fantasy | black-white-creature-isle
+ |
+9.0 | Arcade | black-mesa |
+7.8 | Modern | black-mirror-ii-reigning-evil |
+7.5 | Modern | black-mirror-iii-final-fear |
+6.4 | Massively Multiplayer | black-prophecy |
+4.9 | Sci-Fi | blacksite-area-51 |
+4.6 | General | blacksoul |
+7.2 | General | blackguards |
+7.7 | Fantasy | blackguards-2 |
+7.5 | Sci-Fi | blacklight-retribution |
+5.4 | Modern | blacklight-tango-down |
+8.4 | Adventure Games | blackwell-deception |
+7.5 | General | blade-kitten |
+6.6 | General | blade-symphony |
+5.9 | Action RPG | blade-and-sword |
+9.0 | Action RPG | blade-of-darkness |
+7.6 | General | blades-of-time |
+6.0 | Action Adventure | blair-witch-volume-3-the-elly-kedward-tale |
+8.3 | Horror | blair-witch-volume-i-rustin-parr |
+5.6 | Horror | blair-witch-volume-ii-the-legend-of-coffin-rock |
+8.4 | Arcade | blazerush |
+4.6 | WWII | blazing-angels-2-secret-missions-of-wwii |
+4.7 | WWII | blazing-angels-squadrons-of-wwii |
+8.6 | Historic | blitzkrieg |
+8.5 | Historic | blitzkrieg-2 |
+No Score | Real-Time Strategy | blitzkrieg-2-fall-of-the-reich |
+7.9 | Historic | blitzkrieg-burning-horizon |
+7.9 | Historic | blitzkrieg-rolling-thunder |
+7.3 | 2D | blocks-that-matter |
+9.0 | Modern | blood |
+6.4 | Other | blood-bowl |
+6.3 | Other | blood-bowl-legendary-edition |
+6.8 | Modern | blood-ii-the-chosen |
+8.2 | Horror | blood-omen-2 |
+7.5 | 2D | blood-of-the-werewolf |
+7.8 | Arcade | bloodrayne |
+7.7 | Arcade | bloodrayne-2 |
+8.1 | MOBA | bloodline-champions |
+7.9 | Modern | bloody-good-time |
+6.7 | General | blueberry-garden |
+7.3 | Arcade | blur |
+5.3 | Puzzle | bob-came-in-pieces |
+7.3 | Modern | boiling-point-road-to-hell |
+7.1 | Adventure Games | bone-out-from-boneville |
+7.1 | Adventure Games | bone-the-great-cow-race |
+7.7 | Puzzle | bookworm-adventures-deluxe |
+7.6 | Puzzle | bookworm-adventures-volume-2 |
+7.8 | Arcade | borderlands |
+8.2 | Arcade | borderlands-2 |
+7.4 | Arcade | borderlands-2-captain-scarlett-and-her-pirates-booty |
+7.2 | Arcade | borderlands-2-mr-torgues-campaign-of-carnage |
+6.0 | Arcade | borderlands-2-sir-hammerlocks-big-game-hunt |
+8.6 | Arcade | borderlands-2-tiny-tinas-assault-on-dragon-keep |
+6.9 | Arcade | borderlands-claptraps-new-robot-revolution |
+4.0 | Arcade | borderlands-mad-moxxis-underdome-riot |
+6.1 | Arcade | borderlands-the-pre-sequel |
+7.5 | Arcade | borderlands-the-secret-armory-of-general-knoxx |
+7.5 | Arcade | borderlands-the-zombie-island-of-dr-ned |
+8.3 | Fantasy | botanicula |
+6.9 | Action RPG | bound-by-flame |
+No Score | Sim | bowl-bound-college-football |
+8.6 | 2D | braid |
+6.6 | Fantasy | bravada |
+5.8 | Modern | breach |
+8.0 | Arcade | breakneck |
+4.7 | Sci-Fi | breed |
+8.0 | Other Sports Games | brian-lara-international-cricket-2007 |
+6.9 | Modern | brigade-e5-new-jagged-union |
+6.0 | Sci-Fi | brink |
+7.7 | Fantasy | broken-age-act-1 |
+8.1 | General | broken-sword-5-the-serpents-curse---part-i |
+7.8 | General | broken-sword-5-the-serpents-curse---part-ii |
+7.6 | Modern | broken-sword-the-sleeping-dragon |
+8.2 | Modern | broken-sword-the-smoking-mirror |
+7.3 | Arcade | brothers-in-arms-earned-in-blood |
+7.8 | Historic | brothers-in-arms-hells-highway |
+7.1 | Historic | brothers-in-arms-road-to-hill-30 |
+8.6 | Linear | brothers-a-tale-of-two-sons |
+7.9 | Open-World | brutal-legend |
+6.7 | General | buccaneer-the-pursuit-of-infamy |
+5.2 | Modern | bullet-run |
+7.6 | Sci-Fi | bulletstorm |
+7.5 | Modern | bully-scholarship-edition |
+4.4 | Arcade | burn-zombie-burn |
+7.5 | Arcade | burnout-paradise-the-ultimate-box |
+7.2 | General | bus-driver |
+7.1 | Third-Person | buzz-aldrins-space-program-manager |
+7.2 | 2D | capsized |
+7.5 | Sci-Fi | consortium |
+6.8 | Modern | csi-crime-scene-investigation |
+7.4 | Modern | csi-crime-scene-investigation-3-dimensions-of-murder |
+7.9 | Modern | csi-crime-scene-investigation-dark-motives |
+4.6 | General | csi-crime-scene-investigation-fatal-conspiracy |
+5.8 | Point-and-Click | csi-crime-scene-investigation-hard-evidence |
+6.9 | Modern | csi-miami |
+2.5 | Modern | csi-ny |
+7.4 | Hunting | cabelas-dangerous-hunts |
+7.6 | Historic | caesar-iv |
+3.2 | General | call-for-heroes-pompolic-wars |
+7.5 | Horror | call-of-cthulhu-dark-corners-of-the-earth |
+8.5 | Historic | call-of-duty |
+8.3 | Historic | call-of-duty-2 |
+8.4 | Modern | call-of-duty-4-modern-warfare |
+4.4 | Arcade | call-of-duty-advanced-warfare |
+5.0 | Historic | call-of-duty-black-ops |
+4.0 | Arcade | call-of-duty-black-ops-ii |
+2.0 | Arcade | call-of-duty-ghosts |
+4.1 | Modern | call-of-duty-modern-warfare-2 |
+2.4 | Modern | call-of-duty-modern-warfare-3 |
+8.2 | Historic | call-of-duty-united-offensive |
+7.4 | Historic | call-of-duty-world-at-war |
+7.9 | Historic | call-of-juarez |
+8.0 | Historic | call-of-juarez-bound-in-blood |
+8.2 | Historic | call-of-juarez-gunslinger |
+3.4 | Modern | call-of-juarez-the-cartel |
+7.3 | Historic | call-to-power-ii |
+No Score | General | cannon-brawl |
+5.7 | Military | cannon-fodder-3 |
+9.0 | Tycoon | capitalism-ii |
+6.2 | General | captain-morgane-and-the-golden-turtle |
+7.0 | General | car-mechanic-simulator-2014 |
+3.6 | Tycoon | car-tycoon |
+8.5 | General | card-hunter |
+7.1 | General | cargo-commander |
+7.0 | Fantasy | cargo!-the-quest-for-gravity |
+7.5 | Car Combat | carmageddon-3-tdr-2000 |
+6.8 | Other Strategy Games | carnival-cruise-line-tycoon-2005-island-hopping |
+5.5 | Sci-Fi | carnivores-cityscape |
+No Score | General | carnivores-ice-age |
+5.7 | Adventure Games | carrier-command-gaea-mission |
+7.7 | Automobile | cars |
+5.2 | General | cars-2-the-video-game |
+5.9 | Simulations | cart-life |
+7.6 | Massively Multiplayer | cartoon-network-universe-fusionfall |
+8.3 | Tycoon | casino-empire |
+No Score | Tycoon | casino-mogul |

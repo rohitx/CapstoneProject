@@ -85,7 +85,7 @@ if __name__ == '__main__':
     with open("PopGames.txt", "r") as g:
         content = g.readlines()
 
-    content = content[10:20]
+    content = content[1891:2000]
 
     for game in content:
 

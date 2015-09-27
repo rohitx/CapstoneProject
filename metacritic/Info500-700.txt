@@ -1,0 +1,213 @@
+5.8 | Other Strategy Games | casino-tycoon |
+6.0 | Business / Tycoon | casino-inc |
+7.9 | General | castlestorm |
+7.7 | Fantasy | castlevania-lords-of-shadow-2 |
+7.3 | Fantasy | castlevania-lords-of-shadow-ultimate-edition |
+3.9 | Modern | catwoman |
+8.3 | 2D | cave-story-plus |
+5.0 | Sci-Fi | cellfactor-revolution |
+8.4 | Historic | celtic-kings-rage-of-war |
+8.2 | General | ceville |
+6.1 | Massively Multiplayer | champions-online |
+No Score | Soccer | championship-manager-2008 |
+No Score | Surfing | championship-surfer |
+7.0 | Role-Playing | chantelise-a-tale-of-two-sisters |
+No Score | Real-Time Strategy | chaos-league-sudden-death |
+7.6 | Fantasy | chaos-legion |
+8.2 | Turn-Based Strategy | chaos-overlords |
+8.5 | General | chaos-on-deponia |
+2.6 | Modern | charlie-and-the-chocolate-factory |
+5.9 | Board Games | check-vs-mate |
+7.5 | Board Games | chess-2-the-sequel |
+7.3 | Board Games | chessmaster-10th-edition |
+6.4 | General | chessmaster-8000 |
+7.5 | Board Games | chessmaster-9000 |
+7.1 | Board Games | chessmaster-grandmaster-edition |
+No Score | General | chicken-run |
+8.1 | General | child-of-light |
+7.6 | General | chivalry-deadliest-warrior |
+7.8 | General | chivalry-medieval-warfare |
+6.3 | Scrolling | choplifter-hd |
+5.6 | Business / Tycoon | chris-sawyers-locomotion |
+6.5 | Sci-Fi | chrome |
+7.1 | Sci-Fi | chrome-specforce |
+6.0 | General | chronicles-of-mystery-the-scorpio-ritual |
+No Score | Puzzle | chronicles-of-mystery-the-tree-of-life |
+7.0 | 2D | chronology |
+8.0 | Puzzle | chucks-challenge-3d |
+8.7 | Point-and-Click | circle-of-blood |
+1.4 | Real-Time Strategy | citadels |
+4.0 | Modern | cities-xl |
+5.8 | Modern | cities-xl-2011 |
+5.6 | Modern | cities-xl-2012 |
+7.8 | General | cities-in-motion |
+7.3 | General | cities-in-motion-2 |
+6.8 | Japanese-Style | citizens-of-earth |
+7.4 | Breeding/Constructing | city-life |
+7.8 | Modern | city-life-2008-edition |
+8.2 | Breeding/Constructing | city-life-world-edition |
+8.5 | Modern | city-of-heroes |
+8.1 | Modern | city-of-villains |
+6.9 | Historic | civcity-rome |
+9.1 | Historic | civilization-ii |
+8.3 | Historic | civilization-iii-conquests |
+6.6 | Historic | civilization-iii-play-the-world |
+4.6 | General | clan-of-champions |
+8.5 | Other Strategy Games | cleopatra-queen-of-the-nile |
+No Score | Fantasy | cleopatra-riddle-of-the-tomb |
+7.5 | Horror | clive-barkers-jericho |
+8.8 | Arcade | clive-barkers-undying |
+5.4 | Modern | close-combat-first-to-fight |
+8.1 | Tactics | close-combat-invasion-normandy |
+6.6 | 2D | closure |
+7.3 | General | cloud-chamber |
+7.3 | 2D | cloudberry-kingdom |
+7.7 | General | cloudbuilt |
+8.3 | General | clusterball |
+6.9 | Demolition Derby | clutch |
+4.9 | Modern | code-of-honor-2-conspiracy-island |
+6.1 | Military | codename-panzers-cold-war |
+8.0 | Sci-Fi | codename-outbreak |
+8.8 | Historic | codename-panzers-phase-one |
+7.9 | Historic | codename-panzers-phase-two |
+4.8 | Tycoon | coffee-tycoon |
+6.8 | General | cognition-an-erica-reed-thriller-episode-1---the-hangman |
+7.4 | General | cognition-an-erica-reed-thriller-episode-2---the-wise-monkey |
+7.4 | General | cognition-an-erica-reed-thriller-episode-3---the-oracle |
+6.9 | General | cognition-an-erica-reed-thriller-episode-4---the-cain-killer |
+7.6 | General | cogs |
+7.7 | Horror | cold-fear |
+6.1 | Historic | cold-war |
+No Score | Historic | cold-war-conflicts |
+8.5 | Modern | cold-zero-no-mercy |
+7.0 | Rally / Offroad | colin-mcrae-rally-04 |
+8.4 | Rally / Offroad | colin-mcrae-rally-20 |
+6.9 | Rally / Offroad | colin-mcrae-rally-2005 |
+8.6 | Other Strategy Games | coliseum |
+6.8 | Puzzle | colour-bind |
+7.4 | Helicopter | comanche-4 |
+No Score | General | combat |
+5.1 | First-Person Shooters | combat-arms |
+7.3 | Racing | combat-carnage |
+No Score | Turn-Based Strategy | combat-command-2-danger-forward! |
+No Score | Other Strategy Games | combat-command-2-desert-rats |
+8.1 | WWII | combat-flight-simulator-2-wwii-pacific-theater |
+6.5 | Combat | combat-flight-simulator-3-battle-for-europe |
+3.5 | Modern | combat-medic-special-operations |
+8.4 | Other Strategy Games | combat-mission-3-afrika-korps |
+7.1 | Other Strategy Games | combat-mission-anthology |
+8.3 | Other Strategy Games | combat-mission-barbarossa-to-berlin |
+5.4 | Other Strategy Games | combat-mission-battle-for-normandy |
+3.3 | Other Strategy Games | combat-mission-shock-force |
+6.3 | Modern | combat-task-force-121 |
+8.9 | Command | command-conquer
+ |
+8.1 | Sci-Fi | command-conquer-3-kanes-wrath
+ |
+8.0 | Sci-Fi | command-conquer-3-tiberium-wars
+ |
+2.0 | Sci-Fi | command-conquer-4-tiberian-twilight
+ |
+8.7 | Compilations | command-conquer-the-first-decade
+ |
+8.2 | Modern | command-conquer-generals
+ |
+9.0 | Modern | command-conquer-generals---zero-hour
+ |
+8.9 | Command | command-conquer-red-alert
+ |
+8.9 | Sci-Fi | command-conquer-red-alert-2
+ |
+9.0 | Sci-Fi | command-conquer-red-alert-2---yuris-revenge
+ |
+6.7 | Sci-Fi | command-conquer-red-alert-3
+ |
+6.9 | Sci-Fi | command-conquer-red-alert-3---uprising
+ |
+8.0 | Sci-Fi | command-conquer-renegade
+ |
+5.2 | General | commander-conquest-of-the-americas |
+8.8 | Military | commandos-2-men-of-courage |
+7.5 | Military | commandos-3-destination-berlin |
+7.6 | Historic | commandos-strike-force |
+8.9 | Historic | company-of-heroes |
+2.0 | Historic | company-of-heroes-2 |
+6.1 | Historic | company-of-heroes-2-ardennes-assault |
+6.8 | Historic | company-of-heroes-2-the-western-front-armies |
+8.6 | Military | company-of-heroes-opposing-fronts |
+7.1 | Military | company-of-heroes-tales-of-valor |
+8.1 | 2D | concursion |
+8.0 | Horror | condemned-criminal-origins |
+6.3 | Military | conflict-zone |
+4.9 | Modern | conflict-denied-ops |
+7.9 | Modern | conflict-desert-storm |
+7.9 | Modern | conflict-desert-storm-ii---back-to-baghdad |
+8.5 | Modern | conflict-global-terror |
+7.8 | Historic | conflict-vietnam |
+5.2 | Real-Time Strategy | confrontation |
+8.3 | General | conquest-frontier-wars |
+No Score | Adventure Games | conspiracies |
+7.4 | 2D | constant-c |
+7.2 | Action | contagion |
+5.9 | Modern | contract-jack |
+7.7 | Puzzle | contrast |
+6.6 | Sci-Fi | cops-2170-the-power-of-law |
+7.1 | 2D | cortex-command |
+8.7 | Historic | cossacks-ii-battle-for-europe |
+7.4 | Historic | cossacks-ii-napoleonic-wars |
+8.9 | Historic | cossacks-back-to-war |
+8.5 | General | cossacks-european-wars |
+8.6 | Historic | cossacks-the-art-of-war |
+7.6 | Action RPG | costume-quest-2 |
+9.3 | Modern | counter-strike |
+8.8 | Arcade | counter-strike-condition-zero |
+7.9 | Modern | counter-strike-global-offensive |
+8.9 | Modern | counter-strike-source |
+7.9 | Arcade | crashday |
+7.0 | Car Combat | crasher |
+7.6 | General | crayon-physics-deluxe |
+7.4 | Puzzle | crazy-machines-2 |
+7.3 | 2D | creavures |
+6.8 | Puzzle | create |
+7.0 | Mission-based | crime-cities |
+4.7 | Modern | crime-stories-from-the-files-of-martin-mystere |
+5.9 | Modern | crimecraft |
+5.2 | First-Person Shooters | crimecraft-bleedout |
+8.2 | Futuristic Jet | crimson-skies |
+7.8 | Vertical | crimsonland |
+6.9 | Matching | critical-mass |
+No Score | Fantasy | croixleur |
+6.9 | General | croixleur-sigma |
+7.5 | Rally / Offroad | cross-racing-championship-2005 |
+8.0 | Turn-Based Strategy | crown-of-glory-europe-in-the-age-of-napoleon |
+7.4 | General | crowntakers |
+7.6 | Historic | crusader-kings |
+8.7 | Historic | crusader-kings-ii |
+7.3 | Historic | crusader-kings-ii-charlemagne |
+7.2 | Historic | crusader-kings-ii-rajas-of-india |
+7.7 | Historic | crusader-kings-ii-sons-of-abraham |
+8.6 | Historic | crusader-kings-ii-the-old-gods |
+8.3 | Historic | crusader-kings-ii-the-republic |
+7.8 | Sci-Fi | cryostasis-the-sleep-of-reason |
+8.0 | Sci-Fi | crysis |
+6.7 | Arcade | crysis-2 |
+6.5 | Sci-Fi | crysis-3 |
+7.9 | Sci-Fi | crysis-warhead |
+No Score | General | crystal-key-2-the-far-realm |
+7.3 | Role-Playing | cthulhu-saves-the-world |
+8.0 | Historic | cuban-missile-crisis-the-aftermath |
+6.2 | General | cubemen |
+6.8 | General | cubemen-2 |
+7.7 | Puzzle | cubetractor |
+7.9 | Adventure Games | culpa-innata |
+8.4 | General | cultures |
+7.3 | Historic | cultures-2-the-gates-of-asgard |
+No Score | Fantasy | curious-george |
+3.0 | Fantasy | curse-of-atlantis-thorgals-quest |
+No Score | Horror | curse-the-eye-of-isis |
+8.0 | Historic | d-day |
+4.3 | Modern | dark |
+6.9 | Fantasy | dc-universe-online |
+8.5 | Modern Jet | dcs-a-10c-warthog |
+8.5 | Helicopter | dcs-black-shark |
+8.3 | Sci-Fi | defcon-everybody-dies |
