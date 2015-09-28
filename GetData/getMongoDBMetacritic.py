@@ -13,15 +13,24 @@ def clean_game_name(game):
         game = game.replace(" ","-").replace("&","").lower()
         game = game.replace(":", "")
         game = game.replace("'", "")
-        game = game.replace("(", "").replace(")","").replace(" ", "-").lower()
+        game = game.replace("(", "").replace(")","").replace(" ", "-")
+        game = game.replace(",", "")
+        game = game.replace("?", "")
+        game = game.replace(".", "")
     elif "(" in game:
         game = game.replace("(", "").replace(")","").replace(" ", "-").lower()
+        game = game.replace("'", "")
+        game = game.replace(":", "")
     else:
         game = game.replace(":", "")
         game = game.replace(",", "")
         game = game.replace("'", "")
         game = game.strip().replace(".", "")
         game = game.lower().replace(" ", "-")
+        game = game.replace("/", "")
+        game = game.replace("(", "").replace(")","")
+        game = game.replace(";", "")
+        game = game.replace("?", "")
     return game
 
 def getScore(soup):
@@ -85,7 +94,7 @@ if __name__ == '__main__':
     with open("PopGames.txt", "r") as g:
         content = g.readlines()
 
-    content = content[1891:2000]
+    content = content[3576:]
 
     for game in content:
 
@@ -106,10 +115,7 @@ if __name__ == '__main__':
         # Get Review Count
         review_count = getReview(soup)
 
-        # Get the Summary
-        #descp = getSummary
-        #print descp
-        #
+
         spans = soup.find('span',itemprop="description")
         if spans is not None:
             descp =  (spans.text).encode("utf-8")
@@ -131,7 +137,7 @@ if __name__ == '__main__':
         collection.save(features)
 
         # Wait for the few seconds
-        wait_time = random.randint(3,5)
+        wait_time = random.randint(1,2)
         print "Waiting for...", wait_time
         time.sleep(wait_time)
         print ""

@@ -81,8 +81,10 @@ if __name__ == '__main__':
     df = pd.read_csv("../IndieDBGamesLink.csv")
     mylinks = df['Links'].values
 
-    mylinks = mylinks[:10]
-    count = 0
+    fromlinks  = 1229
+
+    mylinks = mylinks[fromlinks:]
+    count = fromlinks
     for link in mylinks:
         print count
         print link
@@ -135,7 +137,6 @@ if __name__ == '__main__':
         #print game_id, game_title, ostype, engine, genre, theme, players
         #print score_final, rating
         #sum_short
-
 
         wait_time = random.randint(1,3)
         print "Waiting for...", wait_time
