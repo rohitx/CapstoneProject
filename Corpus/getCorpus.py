@@ -99,3 +99,5 @@ dictionary.save('IndieSummaries.dict')
 corpus = [dictionary.doc2bow(text) for text in summary_tf]
 corpora.MmCorpus.serialize('IndieSummaries.mm', corpus)
 
+if __name__ == '__main__':
+    main()
