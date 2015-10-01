@@ -33,12 +33,9 @@ df_indieGames = pd.DataFrame(list(cursor_indieGames))
 #Get all summaries associated with IndieGames
 all_summaries = df_indieGames.summary
 
-# Let's work on a smaller subset
-sub_docs = all_summaries
-
 # Convert list of lists to list of strings
 documents = []
-for a in sub_docs:
+for a in all_summaries:
     for word in a:
         documents.append("".join(word.encode("utf-8")))
 
@@ -99,5 +96,16 @@ dictionary.save('IndieSummaries.dict')
 corpus = [dictionary.doc2bow(text) for text in summary_tf]
 corpora.MmCorpus.serialize('IndieSummaries.mm', corpus)
 
-if __name__ == '__main__':
-    main()
+# Initialize a model. Here I'm using Tfidf Model
+tfidf = models.TfidfModel(corpus)
+
+#Apply the model to the whole corpus
+corpus_tfidf = tfidf[corpus]
+
+# Transform the Tfidf corpus via Latent Semantic Indexing
+# We will use latent 2-D space (set by num_topics=2)
+lsi = models.LsiModel(corpus_tfidf, id2word=dictionary, num_topics=2)
+corpus_lsi = lsi[corpus_tfidf]
+
+# Saving and loading the models
+lsi.save('model_indie.lsi')
