@@ -17,6 +17,7 @@ from pymongo import MongoClient
 import pandas as pd
 from gensim import corpora, models, similarities
 import operator
+import getGameName
 
 # Initialize Mongo Clients
 client = MongoClient()
@@ -31,7 +32,9 @@ cursor_indieGames = db_indieGames.IndieGames.find()
 df_indieGames = pd.DataFrame(list(cursor_indieGames))
 
 
-def recommend_model(game_name):
+def recommend_model(gameName):
+    # Change the game to search for Metacritic MongoDB
+    game_name = getGameName.clean_game_name(gameName)
     # Search for the game the user just selected:
     theGame = df_popGames[(df_popGames["game_name"] == game_name)]
     game_summary = theGame["summary"].iloc[0]
@@ -61,12 +64,13 @@ def recommend_model(game_name):
         results[df_indieGames.game_name.loc[index]] = {
         # "Game Name": df_indieGames.game_name.loc[index],
         "Genre":df_indieGames.genre.loc[index],
-        "Rating": df_indieGames.score.loc[index]
+        "Rating": df_indieGames.score.loc[index],
+        "Link": df_indieGames.game_link[index]
     }
     result = sorted(results.items(), key=operator.itemgetter(0), reverse=False)
     return result
 
 if __name__ == '__main__':
-    sim = recommend_model("call-of-duty")
+    sim = recommend_model("007: NightFire")
     print sim
 
