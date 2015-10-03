@@ -1,6 +1,5 @@
 import cPickle as pickle
 import pandas as pd
-import networkx as nx
 from model import recommend_model as reco
 
 from flask import Flask, request, render_template
