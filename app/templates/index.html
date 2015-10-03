@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>IndieGamer</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../static/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../static/css/grayscale.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="../static/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+<script type="text/javascript" src="http://www.shieldui.com/shared/components/latest/js/shieldui-all.min.js"></script>
+<link rel="stylesheet" type="text/css" href="http://www.shieldui.com/shared/components/latest/css/shieldui-all.min.css" />
+
+<script type="text/javascript">
+    var countries = ["007 Legends", "007: NightFire", "10 Second Ninja", "10,000,000", "140", "15 Days", "1503 A.D. - The New World", "1701 A.D.", "1849", "1954: Alcatraz", "1nsane", "2002 FIFA World Cup", "25 to Life", "4PM", "4x4 EVO 2", "4x4 Evolution", "7 Grand Steps", "7554", "80 Days", "8BitBoy", "911 Fire Rescue", "99 Levels To Hell", "A Bird Story", "A City Sleeps", "A Game of Dwarves", "A Game of Thrones: Genesis", "A Golden Wake", "A New Beginning - Final Cut", "A Quiet Weekend in Capri", "A Story About My Uncle", "A Stroke of Fate: Operation Valkyrie", "A Tale in the Desert", "A Valley Without Wind", "A Valley Without Wind 2", "A Vampyre Story", "A Virus Named TOM", "A Walk in the Dark"];
+
+    jQuery(function ($) {
+        $("#autocomplete1").shieldAutoComplete({
+            dataSource: {
+                data: countries
+            },
+            minLength: 1
+        });
+        $("#autocomplete2").shieldAutoComplete({
+            dataSource: {
+                data: countries
+            },
+            minLength: 1
+        });
+    });
+</script>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <i class="fa fa-play-circle"></i>  <span class="light">Indie</span> Game Recommender
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="/notes">Notes</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#Slides">Slides</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="/contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Intro Header -->
+    <header class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-4">
+                        </form>
+                        <form action="/predict" style="width: 500px; margin: 0.3em 2em;" method='POST'>
+                        <div class="input-group">
+                            <input id="autocomplete1" type="text" name="user_input" class="form-control" placeholder="Search Indie Games">
+                            <div class="input-group-btn">
+                                <button type="submit" class="btn btn-danger">Recommend</button>
+                            </div>
+                        </div>
+                    </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="text-muted">Copyright &copy; IndieGamer 2015</p>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="../static/js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../static/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="../static/js/jquery.easing.min.js"></script>
+
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="../static/js/grayscale.js"></script>
+
+</body>
+
+</html>
