@@ -42,13 +42,13 @@ def recommend_model(gameName):
     all_summaries = df_indieGames.summary
 
     #Load the model
-    lsi_model = models.LsiModel.load('model_indie.lsi')
+    lsi_model = models.LsiModel.load('gensim_stuff/model_indie.lsi')
 
     # Load the corpus
-    corpus = corpora.MmCorpus('IndieSummaries.mm')
+    corpus = corpora.MmCorpus('gensim_stuff/IndieSummaries.mm')
     index = similarities.MatrixSimilarity(lsi_model[corpus])
     # Load the dictionary
-    dictionary = corpora.Dictionary.load('IndieSummaries.dict')
+    dictionary = corpora.Dictionary.load('gensim_stuff/IndieSummaries.dict')
 
     # Break the user input game into vector:
     vec_bow = dictionary.doc2bow(game_summary.lower().split())
@@ -65,7 +65,8 @@ def recommend_model(gameName):
         # "Game Name": df_indieGames.game_name.loc[index],
         "Genre":df_indieGames.genre.loc[index],
         "Rating": df_indieGames.score.loc[index],
-        "Link": df_indieGames.game_link[index]
+        "Link": df_indieGames.game_link[index],
+        "Score": value
     }
     result = sorted(results.items(), key=operator.itemgetter(0), reverse=False)
     return result

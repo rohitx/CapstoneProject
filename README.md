@@ -6,14 +6,21 @@ Before I go into the motivation, the data, and the modeling process, I would lik
 
 ## Repo Structure
 
+```
 . <br>
 |-- App <br>
 |-- GetData <br>
-|   |___getMongoDBMetacritic.py <br>
-|   |___getMongoDBIndie.py <br>
-|-- Recommender <br>
-
-
+|   |___getMongoDBMetacritic.py
+|   |___getMongoDBIndie.py
+|-- Recommender
+|   |___getCorpus.py
+|   |   |___IndieSummaries.dict
+|   |   |___IndieSummaries.mm
+|   |   |___IndieSummaries.mm.index
+|   |___model.py
+|   |   |___model_indie.lsi
+|   |   |___model_indie.lsi.projection
+```
 
 
 ![](Late_summer.png)
