@@ -7,8 +7,8 @@ Before I go into the motivation, the data, and the modeling process, I would lik
 . <br>
 |-- App <br>
 |-- GetData <br>
-    |___getMongoDBMetacritic.py <br>
-    |___getMongoDBIndie.py <br>
+|'  '|___getMongoDBMetacritic.py <br>
+|'  '|___getMongoDBIndie.py <br>
 |-- Recommender <br>
 
 
