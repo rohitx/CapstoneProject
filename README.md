@@ -2,7 +2,17 @@
 
 A recommendation engine to help main stream video gamers discover games created by independent individuals or small groups.
 
+Before I go into the motivation, the data, and the modeling process, I would like to visually explain the file structure of this repo.
+
+            Capstone Repo
+            
+
 ![](Late_summer.png)
+
+## Repo Structure
+
+
+
 
 ## Motivation
 
