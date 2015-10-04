@@ -61,8 +61,9 @@ Indiedb.com did not pose such a problem. It was quite easy to scrape. However, t
 
 ```
     13,422 games in indiedb.com
-    9163   games work for either Windows, Mac, or Linux
-    4353   games have at least one rating
+      9163 games work for either Windows, Mac, or Linux
+      4353 games have at least one rating
 ```
+
 
 
