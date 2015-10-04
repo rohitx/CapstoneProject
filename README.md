@@ -1,19 +1,12 @@
 # Indie Game Recommender
 
 A recommendation engine to help main stream video gamers discover games created by independent individuals or small groups.
-
-Before I go into the motivation, the data, and the modeling process, I would like to visually explain the file structure of this repo.
+![](Late_summer.png)
+Before I go into the motivation, the data, and the modeling process, I would like to explain verbally and visually the file structure of this repo.
 
 ## Repo Structure
 
 The Capstone project repo is divided into three sub-directories:
-
-1. `App`
-The `app` directory has the actual application written in Flask and Jinja that runs on www.indiegamerpro.com.
-2. `GetData`
-3. `Recommender`
-
- The `GetData` directory has two python files. The `getMongoDBMetacritic.py` is a scraper that scrapes 
 
 ```
 .
@@ -32,7 +25,11 @@ The `app` directory has the actual application written in Flask and Jinja that r
 ```
 
 
-![](Late_summer.png)
+1. `App`:This directory has the actual application written in Flask and Jinja that runs on www.indiegamerpro.com.
+2. `GetData`: This directory has two python files. The `getMongoDBMetacritic.py` and `getMongoDBIndiedb.py`. Both of these files are web scrapers. They scrape the www.metacritic.com and www.indiedb.com websites for game information such as summaries, genre, title, platform, and more.
+3. `Recommender`: This subdirectory contains two main files, `getCorpus.py` and `model.py`. The python program `getCopus.py` creates a corpus or bag-of-words from all of the ~1500 indie games. It has other files such as the dictionary, index file and the model file.
+
+The `model.py` file contains the LSI model that is created using the Latent Semantic Analysis. The LSA uses singular matrix decomposition or SVD and therefore generates two files such as `model_indie.lsi` and `model_indie.lsi.projection`.
 
 ## Motivation
 
