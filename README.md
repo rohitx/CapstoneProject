@@ -4,9 +4,11 @@ A recommendation engine to help main stream video gamers discover games created 
 
 Before I go into the motivation, the data, and the modeling process, I would like to visually explain the file structure of this repo.
 
-.
+. <br>
 |-- App <br>
 |-- GetData <br>
+    |___getMongoDBMetacritic.py <br>
+    |___getMongoDBIndie.py <br>
 |-- Recommender <br>
 
 
