@@ -1,7 +1,9 @@
 # Indie Game Recommender
 
 A recommendation engine to help main stream video gamers discover games created by independent individuals or small groups.
+
 ![](Late_summer.png)
+
 Before I go into the motivation, the data, and the modeling process, I would like to explain verbally and visually the file structure of this repo.
 
 ## Repo Structure
@@ -11,6 +13,12 @@ The Capstone project repo is divided into three sub-directories:
 ```
 .
 |-- App
+|   |___app.py
+|   |___model.py
+|   |   |___gensim_files
+|   |___getGameName.py
+|   |___static
+|   |___templates
 |-- GetData
 |   |___getMongoDBMetacritic.py
 |   |___getMongoDBIndie.py
@@ -25,7 +33,7 @@ The Capstone project repo is divided into three sub-directories:
 ```
 
 
-1. `App`:This directory has the actual application written in Flask and Jinja that runs on www.indiegamerpro.com.
+1. `App`:This directory has the actual application written in Flask and Jinja that runs on www.indiegamerpro.com. This directory contains the `model.py` and `app.py` and `getGameName.py`. The `app.py` runs the Flask application. `getGameName.py` takes the user-inputThe `model.py` recommends a game based on user input while 
 2. `GetData`: This directory has two python files. The `getMongoDBMetacritic.py` and `getMongoDBIndiedb.py`. Both of these files are web scrapers. They scrape the www.metacritic.com and www.indiedb.com websites for game information such as summaries, genre, title, platform, and more.
 3. `Recommender`: This subdirectory contains two main files, `getCorpus.py` and `model.py`. The python program `getCopus.py` creates a corpus or bag-of-words from all of the ~1500 indie games. It has other files such as the dictionary, index file and the model file.
 
