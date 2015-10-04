@@ -6,10 +6,19 @@ Before I go into the motivation, the data, and the modeling process, I would lik
 
 ## Repo Structure
 
+The Capstone project repo is divided into three sub-directories:
+
+1. `App`
+The `app` directory has the actual application written in Flask and Jinja that runs on www.indiegamerpro.com.
+2. `GetData`
+3. `Recommender`
+
+ The `GetData` directory has two python files. The `getMongoDBMetacritic.py` is a scraper that scrapes 
+
 ```
-. <br>
-|-- App <br>
-|-- GetData <br>
+.
+|-- App
+|-- GetData
 |   |___getMongoDBMetacritic.py
 |   |___getMongoDBIndie.py
 |-- Recommender
