@@ -1,4 +1,3 @@
-import cPickle as pickle
 import pandas as pd
 from model import recommend_model as reco
 

@@ -35,9 +35,9 @@ The Capstone project repo is divided into three main directories:
 
 1. **`App`**:This directory has the actual application written in Flask and Jinja that runs on www.indiegamerpro.com. This directory contains the `model.py` and `app.py` and `getGameName.py`. The `app.py` runs the Flask application. `getGameName.py` takes the user-input cleans and converts it in the same format``The `model.py` recommends a game based on user input while
 2. **`GetData`**: This directory has two python files. The `getMongoDBMetacritic.py` and `getMongoDBIndiedb.py`. Both of these files are web scrapers. They scrape the www.metacritic.com and www.indiedb.com websites for game information such as summaries, genre, title, platform, and more.
-3. `Recommender`: This subdirectory contains two main files, `getCorpus.py` and `model.py`. The python program `getCopus.py` creates a corpus or bag-of-words from all of the ~1500 indie games. It has other files such as the dictionary, index file and the model file.
+3. **`Recommender`**: This subdirectory contains two main files, `getCorpus.py` and `model.py`. The python program `getCopus.py` creates a corpus or bag-of-words from all of the ~1500 indie games. It has other files such as the dictionary, index file and the model file.
 
-The **`model.py`** file contains the LSI model that is created using the Latent Semantic Analysis. The LSA uses singular matrix decomposition or SVD and therefore generates two files such as `model_indie.lsi` and `model_indie.lsi.projection`.
+The `model.py` file contains the LSI model that is created using the Latent Semantic Analysis. The LSA uses singular matrix decomposition or SVD and therefore generates two files such as `model_indie.lsi` and `model_indie.lsi.projection`.
 
 ## Motivation
 
@@ -65,5 +65,14 @@ Indiedb.com did not pose such a problem. It was quite easy to scrape. However, t
       4353 games have at least one rating
 ```
 
+Both scrappers dump their data in MongoDB databases. The database was called Games while the collections(tables) were called ``IndieGames`` and ``PopularGames``.
 
+### Creating a Recommender Model
 
+Before creating a model for the recommender system, I had to clean the data. Data cleaning involved removing ```unicode``` characters, urls, email addresses, and other funky characters. The data cleaning was performed as part of creating the corpus of indie games.
+
+The creation of the indie games summary corpus involved **tokenization**, removal of **stop words**, and **lemmitization**. Finally, I applied the **term frequency-inverse document frequency** to the entire corpus. I also created a dictionary of words that go into the model.
+
+I employed Latent Semantic Analysis (LSA) model for calculating the latent features in the indie games corpus. LSA produces a set of latent features between the documents and terms by analyzing relationships between a set of documents and the terms they contain.
+
+The model then matches the vectorized summary of user input game and recommends indie games to the user.
