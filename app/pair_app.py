@@ -1,3 +1,15 @@
+"""
+This program creates a Flask application. The Flask application renders
+the recommender web application. The index.html is the home where the user
+inputs a query. The results are posted on the results.html.
+
+File(s) used: None
+Database(s) uses: None
+Created: September 30th, 2015
+Creator: Rohit Deshpande
+"""
+
+
 import pandas as pd
 from model import recommend_model as reco
 
