@@ -85,4 +85,4 @@ The final product is a web app. I tried to create a minimalistic but an artistic
 
 Here's the input page:
 
-![](images/website_1.png)
+![](images_readme/website_1.png)
