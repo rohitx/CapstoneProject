@@ -1,13 +1,23 @@
+"""
+This program takes in Indiedb.com links and scraps
+Platform, engine, Release date, Genre, Theme, # of players,
+summary, score, rating, and OS type into a MongoDB database.
+
+File(s) used: PopGames.txt
+Database(s) uses: MongoDB
+                  Uses Collections:
+                  PopularGames
+Created: September 24th, 2015
+Creator: Rohit Deshpande
+"""
+
 from pymongo import MongoClient
 from bs4 import BeautifulSoup
 import urllib2, sys, random, time
 
 
 def clean_game_name(game):
-    """
-    This function cleans the game of the game
-    used to query Metacritic.com
-    """
+
     if "&" in game:
             #game = game.replace(" ", "").replace("&", "-").lower()
         game = game.replace(" ","-").replace("&","").lower()
