@@ -14,24 +14,24 @@ The Capstone project repo is divided into three main directories:
 
 ```
 .
-|-- App
-|   |___app.py
-|   |___model.py
-|   |   |___gensim_files
-|   |___getGameName.py
-|   |___static
-|   |___templates
-|-- GetData
-|   |___getMongoDBMetacritic.py
-|   |___getMongoDBIndie.py
-|-- Recommender
-|   |___getCorpus.py
-|   |   |___IndieSummaries.dict
-|   |   |___IndieSummaries.mm
+├── App
+|   ├── app.py
+|   ├── model.py
+|   |   └── gensim_files
+|   ├── getGameName.py
+|   ├── static
+|   └── templates
+├── GetData
+|   ├── getMongoDBMetacritic.py
+|   └── getMongoDBIndie.py
+├── Recommender
+|   ├──getCorpus.py
+|   |   ├──IndieSummaries.dict
+|   |   ├──IndieSummaries.mm
 |   |   |___IndieSummaries.mm.index
-|   |___model.py
-|   |   |___model_indie.lsi
-|   |   |___model_indie.lsi.projection
+|   └── model.py
+|   |   ├── model_indie.lsi
+|   |   └── model_indie.lsi.projection
 ```
 
 
