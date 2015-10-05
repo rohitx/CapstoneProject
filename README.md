@@ -6,11 +6,11 @@ A recommendation engine to help main stream video gamers discover games created 
 ![](Late_summer.png)
 <br>
 <br>
-Before I go into the motivation, the data, and the modeling process, I would like to explain verbally and visually the file structure of this repo.
+Before I go into the motivation, the data, and the modeling process, I would like to explain verbally and visually the directory structure of this repo.
 
 ## Repo Structure
 
-The Capstone project repo is divided into three main directories:
+The Capstone project repo is divided into three main directories: App, GetData, and Recommender.
 
 ```
 .
@@ -26,9 +26,9 @@ The Capstone project repo is divided into three main directories:
 |   └── getMongoDBIndie.py
 ├── Recommender
 |   ├──getCorpus.py
-|   |   ├──IndieSummaries.dict
-|   |   ├──IndieSummaries.mm
-|   |   |___IndieSummaries.mm.index
+|   |   ├── IndieSummaries.dict
+|   |   ├── IndieSummaries.mm
+|   |   └── IndieSummaries.mm.index
 |   └── model.py
 |   |   ├── model_indie.lsi
 |   |   └── model_indie.lsi.projection
@@ -69,7 +69,7 @@ Indiedb.com did not pose such a problem. It was quite easy to scrape. However, t
 
 Both scrappers dump their data in MongoDB databases. The database was called Games while the collections(tables) were called ``IndieGames`` and ``PopularGames``.
 
-## Creating a Recommender Model
+## Recommender Model
 
 Before creating a model for the recommender system, I had to clean the data. Data cleaning involved removing ```unicode``` characters, urls, email addresses, and other funky characters. The data cleaning was performed as part of creating the corpus of indie games.
 
