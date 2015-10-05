@@ -55,19 +55,19 @@ The first steps involved acquiring data for the project. I collected ~3000 most 
 
 The next step involved finding indie games. First I searched on Steam and found ~2000 indie games. However, a search online revealed a website called www.indiedb.com. This website had 13,700 indie games. Hence, this became my source for Indie games.
 
-Finally, I used metacritic to get summaries and other information of popular games. I used metacritic over Steam because Steam poses a challenge to scrape. I found that pagination does not work on Steam when I scraped Steam, i.e., the scrapper is unable to move to the next page. It would also return the same page. This element is set intentionally by Steam to prevent scrapping.
+Finally, I used metacritic to get summaries and other information of popular games. I used metacritic over Steam because Steam poses a challenge to scrape. I found that pagination does not work on Steam, e.g., the scrapper is unable to move to the next page as the ping to the site resets the page counter to 1. This element is set intentionally by Steam to prevent scrapping.
 
 Metacritic also posed a challenge initially as it rejected the ping from my scrapper. The rejected was a result of anti-scrapping function set by Metacritic.com. The website recognizes python's library `urllib2` and therefore return a `forbidden error`. The work-around was fairly straight-forward. I had to set few parameters in my scrapper that help it to mask itself as a Mozilla browser. After which I was able to scrape ~3000 pages fairly easily.
 
-Indiedb.com did not pose such a problem. It was quite easy to scrape. However, the webpages are not consistent in the their HTML structure. Furthermore, there seems a trend to embed the summary in an image. This made scrapping of the latest games quite hard. However, only handful of the cases suffered. The major hurdle was the fact that a lot of games were unrated by users. Here's a summary of what I found:
+Indiedb.com did not pose such a problem. It was quite easy to scrape. However, the webpages are not consistent in their HTML structure. Furthermore, there seems a trend to embed the summary of the game in an image. This made scrapping of the latest games impossible. However, only handful of the cases suffered from this. The major hurdle was the fact that a lot of games were unrated by users. Here's a summary of what I found on www.indiedb.com:
 
 ```
     13,422 games in indiedb.com
       9163 games work for either Windows, Mac, or Linux
-      4353 games have at least one rating
+      4353 games rated by at least one person
 ```
 
-Both scrappers dump their data in MongoDB databases. The database was called Games while the collections(tables) were called ``IndieGames`` and ``PopularGames``.
+Both scrappers dump their data in MongoDB databases. The database was called Games while the collections (tables) were called ``IndieGames`` and ``PopularGames``.
 
 ## Recommender Model
 
@@ -81,7 +81,7 @@ The model then matches the vectorized summary of user input game and recommends 
 
 ## The Final Product
 
-The final product is a web app. I tried to create a minimalistic but an artistic design that is welcoming to a user. The main page contains just a search bar into which the user types the game.
+The final product is a web app. I tried to create a minimalistic yet artistic design that is welcoming to a user. The main page contains just a search bar into which the user types the game.
 
 Here's the input page:
 
@@ -90,3 +90,7 @@ Here's the input page:
 The product returns four recommended games:
 
 ![](images_readme/website_2.png)
+
+## Future Work
+
+I would like to try out other models for my recommender such as Doc2Vec and LDA. I believe these two models may result is better recommendations than the current LSA model. 
