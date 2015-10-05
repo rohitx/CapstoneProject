@@ -3,7 +3,7 @@
 A recommendation engine to help main stream video gamers discover games created by independent individuals or small groups.
 <br>
 <br>
-![](Late_summer.png)
+![](images_readme/Late_summer.png)
 <br>
 <br>
 Before I go into the motivation, the data, and the modeling process, I would like to explain verbally and visually the directory structure of this repo.
@@ -35,19 +35,19 @@ The Capstone project repo is divided into three main directories: App, GetData, 
 ```
 
 
-1. **`App`**:This directory has the actual application written in Flask and Jinja that runs on www.indiegamerpro.com. This directory contains the `model.py` and `app.py` and `getGameName.py`. The `app.py` runs the Flask application. `getGameName.py` takes the user-input cleans and converts it in the same format``The `model.py` recommends a game based on user input while
-2. **`GetData`**: This directory has two python files. The `getMongoDBMetacritic.py` and `getMongoDBIndiedb.py`. Both of these files are web scrapers. They scrape the www.metacritic.com and www.indiedb.com websites for game information such as summaries, genre, title, platform, and more.
+1. **`App`**: This directory has the actual web application written in Flask and Jinja that runs on www.indiegamerpro.com. This directory contains the program files `model.py` and `app.py` and `getGameName.py`. The `app.py` runs the Flask application, `getGameName.py` takes the user-input cleans and converts it to a format that used by the model to search the game and its summary. The `model.py` recommends a game based on user input.
+2. **`GetData`**: This directory has two python files, `getMongoDBMetacritic.py` and `getMongoDBIndiedb.py`. Both files are web scrapers. They scrape the www.metacritic.com and www.indiedb.com websites for game information such as summaries, genre, title, platform, release date, and user ratings.
 3. **`Recommender`**: This subdirectory contains two main files, `getCorpus.py` and `model.py`. The python program `getCopus.py` creates a corpus or bag-of-words from all of the ~1500 indie games. It has other files such as the dictionary, index file and the model file.
 
-The `model.py` file contains the LSI model that is created using the Latent Semantic Analysis. The LSA uses singular matrix decomposition or SVD and therefore generates two files such as `model_indie.lsi` and `model_indie.lsi.projection`.
+The `model.py` file contains the Latent Semantic Indexing (LSI) model that is created using the Latent Semantic Analysis. The LSA uses singular matrix decomposition (SVD) and therefore generates two files such as `model_indie.lsi` and `model_indie.lsi.projection`.
 
 ## Motivation
 
-Ubisoft, Activision, and Electronic Arts are few of the biggest players that dominate the video gaming scene. They have huge resources to create and develop games, deep financial pockets to support development of multiple games, and a large advertising budget to market their products. In contrast video games created by individuals or small groups, called Indie games, are often incredibly additive, visually appealing, and have great game play. However, they lack the financial support and advertisement budget to make their games popular and compete with the biggest players.
+Ubisoft, Activision, and Electronic Arts are few of the biggest players that dominate the video gaming scene. They have huge resources to create and develop games, deep financial pockets to support development of multiple games, and a large advertising budget to market their products. In contrast video games created by individuals or small groups, called Indie games, are often incredibly additive, visually appealing, and have great game play. However, they lack the financial support and advertisement budget to make their games popular, reach the masses, and compete with the biggest players.
 
-Steam, an internet-based digital distribution platform, is the most popular site to purchase video games created for PC, Mac, and Linux. They have around 2000 Indie Games. However, their recommendation engine will generally recommends games created by the same company and of the same genre. Most recommendation systems do that. However, it would be good if they could recommend games outside of the genre.
+Steam, an internet-based digital distribution platform, is the most popular site to purchase video games created for PC, Mac, and Linux. They have around 2000 Indie Games, a relatively small collection of games as they charge developers a premium to advertise their games on Steam. Furthermore, their recommendation engine generally recommends games of the same genre as that the user has selected. Most recommendation systems do just that. However, such a process prevents the user from trying out games from different genre which can often result in the loss of revenue.
 
-I created a recommender system to address the issue of unbalanced Indie Gaming market and create a recommender system that recommends games not just within the genre but also outside of it.
+I created a recommender system to address the issues discussed above. My recommender system gets the heart of the problem by targeting the consumers themselves. The recommender system invites a user to enter the name of the game they enjoy and returns a list of Indie games they are most likely to enjoy. The recommender systems does this like a pro by taking latent features from user-queried game, matches it with other Indie games across genres and returns Indie games that are most similar to user-queried game. Hence, a user is most likely to try out an Indie game and enjoy it as it similar to the game the user enjoys and furthermore, the user is able to explore other genres without being disappointed.
 
 ## Data Acquisition
 
