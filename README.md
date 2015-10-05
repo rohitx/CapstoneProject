@@ -86,3 +86,7 @@ The final product is a web app. I tried to create a minimalistic but an artistic
 Here's the input page:
 
 ![](images_readme/website_1.png)
+
+The product returns four recommended games:
+
+![](images_readme/website_2.png)
