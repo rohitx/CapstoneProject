@@ -2,7 +2,9 @@
 
 A recommendation engine to help main stream video gamers discover games created by independent individuals or small groups.
 <br>
+<br>
 ![](Late_summer.png)
+<br>
 <br>
 Before I go into the motivation, the data, and the modeling process, I would like to explain verbally and visually the file structure of this repo.
 
@@ -67,7 +69,7 @@ Indiedb.com did not pose such a problem. It was quite easy to scrape. However, t
 
 Both scrappers dump their data in MongoDB databases. The database was called Games while the collections(tables) were called ``IndieGames`` and ``PopularGames``.
 
-### Creating a Recommender Model
+## Creating a Recommender Model
 
 Before creating a model for the recommender system, I had to clean the data. Data cleaning involved removing ```unicode``` characters, urls, email addresses, and other funky characters. The data cleaning was performed as part of creating the corpus of indie games.
 
@@ -76,3 +78,11 @@ The creation of the indie games summary corpus involved **tokenization**, remova
 I employed Latent Semantic Analysis (LSA) model for calculating the latent features in the indie games corpus. LSA produces a set of latent features between the documents and terms by analyzing relationships between a set of documents and the terms they contain.
 
 The model then matches the vectorized summary of user input game and recommends indie games to the user.
+
+## The Final Product
+
+The final product is a web app. I tried to create a minimalistic but an artistic design that is welcoming to a user. The main page contains just a search bar into which the user types the game.
+
+Here's the input page:
+
+![](images/Late_summer.png)
