@@ -4,7 +4,6 @@ This function creates a corpus of Indie games
 File(s) used: None
 Database(s) uses: MongoDB
                   Uses collections:
-                  PopularGames
                   IndieGames
 Created: September 28th, 2015
 Creator: Rohit Deshpande

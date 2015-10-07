@@ -1,6 +1,6 @@
 """
 This program takes in Indiedb.com links and scraps
-Platform, engine, Release date, Genre, Theme, # of players,
+platform, engine, Release date, Genre, Theme, # of players,
 summary, score, rating, and OS type into a MongoDB database.
 
 File(s) used: PopGames.txt

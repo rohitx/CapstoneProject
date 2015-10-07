@@ -1,6 +1,6 @@
 """
 This program takes in Indiedb.com links and scraps
-Platform, engine, Release date, Genre, Theme, # of players,
+platform, engine, Release date, Genre, Theme, # of players,
 summary, score, rating, and OS type into a MongoDB database.
 
 File(s) used: IndieDBGamesLink.csv
@@ -79,6 +79,8 @@ def checkOS(soup):
             ostype[p] = True
     platform_check = [value for key, value in ostype.iteritems()]
     return platform_check
+
+
 
 if __name__ == '__main__':
      # Initialize MongoDB
