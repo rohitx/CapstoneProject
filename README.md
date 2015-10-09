@@ -1,5 +1,7 @@
 # Indie Game Recommender
 
+www.indiegamerpro.com
+
 A recommendation engine to help main stream video gamers discover games created by independent individuals or small groups.
 <br>
 <br>
@@ -93,4 +95,4 @@ The product returns four recommended games:
 
 ## Future Work
 
-I would like to try out other models for my recommender such as Doc2Vec and LDA. I believe these two models may result is better recommendations than the current LSA model. Need to add more here. 
+I would like to try out other models for my recommender such as Doc2Vec and LDA. I believe these two models may result is better recommendations than the current LSA model. Need to add more here.
